@@ -18,8 +18,8 @@ class MyApp extends StatelessWidget {
      
         primarySwatch: Colors.blue,
       ),
-      // home:  HomePage(),
-      home:  MyHomePage(),
+      home:  HomePage(),
+      // home:  MyHomePage(),
     );
   }
 }

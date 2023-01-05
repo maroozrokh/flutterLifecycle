@@ -2,6 +2,7 @@ import 'package:flutter/material.dart';
 import 'package:flutter/rendering.dart';
 import 'package:lifecycle/my_checkbox.dart';
 import 'package:lifecycle/my_elevated_button.dart';
+import 'package:lifecycle/my_list_tile.dart';
 import 'package:lifecycle/my_switchcase.dart';
 import 'package:lifecycle/my_text_form_field.dart';
 
@@ -20,10 +21,12 @@ class HomePage extends StatelessWidget {
       body: Center(
         child: Column (
             children: [
+              MyListTiles(),
+              Mywid(onTap: () => print('tep tep'),myColor: Colors.amber,myRadius: 50.0,myColor1: Colors.black45,myRadius1: 20.0,),
 
-              MyTxetFormField(onTap: () => print('tep tep'),maxLebgth: 3),
-              MyTxetFormField(),
-              Mywid(),
+
+              // MyTxetFormField(),
+              // Mywid(),
               MyCheckBox(valu: true,),
               
               MyElevatedButton(child: Text('click Me'),),
