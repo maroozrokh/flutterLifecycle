@@ -21,7 +21,9 @@ class HomePage extends StatelessWidget {
       body: Center(
         child: Column (
             children: [
-              MyListTiles(),
+              MyListTiles(title: 'Mahsa',subTitle: "hello mahsa how are you i hope you will be okay these dayes",myIcon: Icons.accessibility_new_rounded,),
+              MyListTiles(title: 'Mahsa',subTitle: "hello mahsa how are you i hope you will be okay these dayes",myIcon: Icons.accessibility_new_rounded,),
+
               Mywid(onTap: () => print('tep tep'),myColor: Colors.amber,myRadius: 50.0,myColor1: Colors.black45,myRadius1: 20.0,),
 
 
